@@ -5,8 +5,8 @@
 Remaining situation:
 - forgetorder on, weapon 7 2 1
 - keep firing as you run out of rockets, (1), pickup rockets, fire again (2)
-- (1) if you stop before firing shotgun, weaponlist should remain 7 2 1 and result (2) should be firing rocket
-- (1) if you continue and fire shotgun, weaponlist should change to 2 1, and result (2) should be firing shotgun
+  - (1) if you stop before firing shotgun, weaponlist should remain 7 2 1 and result (2) should be firing rocket
+  - (1) if you continue and fire shotgun, weaponlist should change to 2 1, and result (2) should be firing shotgun
 - issue is that ktx doesn't know about forgetorder and mvdsv doesn't know about ktx selecting best weapon from w_rank userinfo
 
 ### client-side rollover

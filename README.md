@@ -31,7 +31,7 @@ if it's on this list it's not released yet...
   - [ ] hud revamp, kill old hud & duplication of code
   - [ ] break link between console size and (lots of complaining)
   - [ ] r_gpu_particles/r_gpu_lighting etc - do vulkan first
-- Vulkan
+- [ ] Vulkan
   - [ ] This is further forward but a slog at the moment until all the scaffolding is done
 
 ### Server browser/interface re-write

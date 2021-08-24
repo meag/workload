@@ -98,3 +98,16 @@ if it's on this list it's not released yet...
 ### Networking improvements
 
 - [ ] maybe just park this until andeh's stuff done
+
+# Demolyzer (html)
+
+- [ ] Version 1
+  - [ ] Load map images from server if available (github repo)
+  - [ ] Non-html screenshots
+  - [ ] Github repo for static content
+  - [ ] Graphs based on original program
+  - [ ] Table results based on original program
+- [ ] Longer term
+  - [ ] Multi-map matches
+  - [ ] Submit to tournament websites
+  - [ ] Integration with gfx.quakeworld.nu

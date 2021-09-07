@@ -6,13 +6,14 @@ if it's on this list it's not released yet...
 
 - [x] HDR mode should enable HDR lightmaps
 - [x] Tonemap options - basic
-- [ ] Tonemap options - calculate whitepoint as max(color, vec3(1,1,1))
-- [ ] Restrict to certain rulesets, or are backgrounds just as bright as drawflat with wallcolor 255 255 255?
-- [ ] glsl bloom
+- [x] Tonemap options - user configurable whitepoint
+- [ ] Tonemap options - calculate from image (slower)
+- [x] Restrict to certain rulesets, or are backgrounds just as bright as drawflat with wallcolor 255 255 255?  (same)
+- [ ] remove immediate-mode bloom, glsl bloom
 
 ### Demo playback
 
-- [ ] .avi/mjpeg output support in linux (in progress)
+- [ ] .avi/mjpeg output support in linux (done?  working on Windows, need to test)
 - [ ] .mp4 support in windows, Visual Studio build only?  code is in another branch
 - [x] fast demo rewind as long as within map reload time
 - [ ] proper rewind (cl_demospeed -0.5) ... started on this but lot of work to make particles rewind etc
@@ -29,7 +30,7 @@ if it's on this list it's not released yet...
   - [ ] Common model format, get rid of lerphack
   - [ ] Proper md3 shader options
   - [ ] hud revamp, kill old hud & duplication of code
-  - [ ] break link between console size and (lots of complaining)
+  - [ ] break link between console size and view limits/fov (lots of complaining)
   - [ ] r_gpu_particles/r_gpu_lighting etc - do vulkan first
 - [ ] Vulkan
   - [ ] This is further forward but a slog at the moment until all the scaffolding is done
@@ -111,3 +112,9 @@ if it's on this list it's not released yet...
   - [ ] Multi-map matches
   - [ ] Submit to tournament websites
   - [ ] Integration with gfx.quakeworld.nu
+
+# Badplace
+
+- [ ] Fix race records where route numbers have been mis-identified
+- [ ] Get to the bottom of this
+- [ ] Accept match results from Demolyzer

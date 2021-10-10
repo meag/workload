@@ -34,6 +34,9 @@ if it's on this list it's not released yet...
   - [ ] r_gpu_particles/r_gpu_lighting etc - do vulkan first
 - [ ] Vulkan
   - [ ] This is further forward but a slog at the moment until all the scaffolding is done
+  - [x] Re-write brushmodel rendering to get rid of gpu_shader5 stuff that is now disabled
+  - [ ] Multiple lightmap contexts, one context per texture (only worldmodels updated)
+  - [ ] Support bindless texture extension & use that when rendering brushmodels instead
 
 ### Server browser/interface re-write
 
@@ -118,3 +121,8 @@ if it's on this list it's not released yet...
 - [ ] Fix race records where route numbers have been mis-identified
 - [ ] Get to the bottom of this
 - [ ] Accept match results from Demolyzer
+- [ ] Enable tournament admin accounts (GQ5)
+- [ ] Update wiki sync for changes to templates (GQ5)
+- [ ] Show wiki sync status on-screen to admins
+- [ ] Parse api data from dev's old site
+- [ ] Upload old GetQuad demos and associate with tournament games

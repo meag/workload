@@ -118,11 +118,12 @@ if it's on this list it's not released yet...
 
 # Badplace
 
-- [ ] Fix race records where route numbers have been mis-identified
+- [x] Fix race records where route numbers have been mis-identified
 - [ ] Get to the bottom of this
+  - [ ] mvdsv's packetentities & really quick map routes (vvd's especially)
 - [ ] Accept match results from Demolyzer
-- [ ] Enable tournament admin accounts (GQ5)
-- [ ] Update wiki sync for changes to templates (GQ5)
-- [ ] Show wiki sync status on-screen to admins
+- [x] Enable tournament admin accounts (GQ5)
+- [x] Update wiki sync for changes to templates (GQ5)
+- [x] Show wiki sync status on-screen to admins
 - [ ] Parse api data from dev's old site
 - [ ] Upload old GetQuad demos and associate with tournament games

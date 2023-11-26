@@ -21,9 +21,9 @@ if it's on this list it's not released yet...
 ### Rendering
 
 - [x] Translucent models should have a z-only pass to stop overdraw making the model more opaque
-- [ ] Aliasmodel lerping is often janky
+- [x] aliasmodel lerping is often janky
 - [ ] OpenGL 3.2 support for MacOS in particular
-- [ ] Fog
+- [x] Fog
 - [ ] 'Shadows'.... ugh.  remove old model
 - [ ] long term
   - [ ] Integrate two particle systems, optimise
@@ -35,7 +35,7 @@ if it's on this list it's not released yet...
 - [ ] Vulkan
   - [ ] This is further forward but a slog at the moment until all the scaffolding is done
   - [x] Re-write brushmodel rendering to get rid of gpu_shader5 stuff that is now disabled
-  - [ ] Multiple lightmap contexts, one context per texture (only worldmodels updated)
+  - [x] Multiple lightmap contexts, one context per texture (only worldmodels updated)
   - [ ] Support bindless texture extension & use that when rendering brushmodels instead
 
 ### Server browser/interface re-write
